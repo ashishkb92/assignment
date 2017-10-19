@@ -6,7 +6,7 @@ function fibonacci(n) {
 
 let evenValuedSum = 0;
 
-for (let i = 1; fibonacci(i) < 90; i++) {
+for (let i = 1; fibonacci(i) < 4000000; i++) {
  if(fibonacci(i)%2 === 0) 
  evenValuedSum = evenValuedSum + fibonacci(i);
 }
